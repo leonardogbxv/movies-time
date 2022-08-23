@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Movies Time</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link href="filmes.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="../barras-navegacao.css" rel="stylesheet">
+<script src="script.js" defer></script>
+<script src="../index.js" defer></script>
+</head>
+<body class="body">
+  <div class="navigation-bar">
+    <div class="menu-principal">
+      <span id="icon-bars" class="material-symbols-outlined">
+        density_medium
+      </span>
+      <img class="logo" src="../Movies Time.svg" alt="logo">
+    </div>
+
+    <div class="welcome-user">
+       <span>Olá usuario</span>
+       <span id="icon-arrow" class="material-symbols-outlined icon-arrow">
+        expand_more
+        </span>
+    </div>
+
+    <div id="menu-logout">
+      <ul class="menu-items log-out">
+        <span class="material-symbols-outlined menu-icons">
+          logout
+        </span>
+        <p class="menu-text">
+          Sair
+        </p>
+      </ul>
+    </div>
+
+    <div id="menu-lateral">
+      <ul class="menu-items">
+        <span class="material-symbols-outlined menu-icons">
+          movie
+        </span>
+        <p class="menu-text">
+          Filmes
+        </p>
+      </ul>
+      <ul class="menu-items">
+        <span class="material-symbols-outlined menu-icons">
+          person
+        </span>
+        <p class="menu-text">
+          Atores
+        </p>
+      </ul>
+
+      <ul class="menu-items">
+        <span class="material-symbols-outlined menu-icons">
+          <span class="material-symbols-outlined">
+            sell
+          </span>
+          </span>
+        <p class="menu-text">
+          Categorias
+        </p>
+      </ul>
+    </div>
+  </div>
+	<div class="container-form">
+		<div>
+			<div id="imagem">
+			</div>
+		</div>
+		<form class="cadastro">		
+			<h1 class="titulo">Cadastro de Filmes</h1>
+			<label class="titulo-form">Titulo</label>
+			<input class="campo-input" type="text" id="titulo" name="fname"><br>
+			
+			<label class="titulo-form">Capa</label>
+			<input class="campo-input" type="text" id="capa" name="lname"><br>
+			
+			<label class="titulo-form">Sinopse</label>
+			<input class="campo-input" type="text" id="sinopse" name="lname"><br>
+			
+			<label class="titulo-form">Categorias</label>
+			<input class="campo-input" type="text" id="categorias" name="lname"><br>
+			
+			<label class="titulo-form">Elenco</label>
+			<input class="campo-input" type="text" id="elenco" name="lname"><br>
+			
+			<input  class="botao" type="submit" value="Adicionar">
+		</form>
+	</div>
+
+</body>
+</html>
+
