@@ -10,3 +10,22 @@ const insertNewRow = (tableName, data) => {
     index++;
   }
 }
+
+
+const barsIcon = document.getElementById('icon-bars')
+const arrowIcon = document.getElementById('icon-arrow')
+barsIcon.addEventListener("click", () => {
+  changeState('menu-lateral')
+})
+arrowIcon.addEventListener("click", () => {
+  changeState('menu-logout')
+})
+
+function changeState(el) {
+  var display = document.getElementById(el).style.display;
+  if(display == "block") {
+    document.getElementById(el).style.display = 'none';
+  } else {
+    document.getElementById(el).style.display = 'block';
+  } 
+}
