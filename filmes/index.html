@@ -42,7 +42,7 @@
     </div>
 
     <div id="menu-lateral">
-      <ul class="menu-items">
+      <ul id="filmes" class="menu-items">
         <span class="material-symbols-outlined menu-icons">
           movie
         </span>
@@ -50,7 +50,7 @@
           Filmes
         </p>
       </ul>
-      <ul class="menu-items">
+      <ul id="atores" class="menu-items">
         <span class="material-symbols-outlined menu-icons">
           person
         </span>
@@ -59,7 +59,7 @@
         </p>
       </ul>
 
-      <ul class="menu-items">
+      <ul id="categorias" class="menu-items">
         <span class="material-symbols-outlined menu-icons">
           <span class="material-symbols-outlined">
             sell
@@ -73,6 +73,36 @@
 
    
   </div>
+
+  <div class="container">
+    <div class="flex">
+      <h2 class="tittle-film">Filmes</h2>
+      <div id="button">
+        <span class="purple">Adicionar</span>
+      </div>
+    </div>
+    <div class="flex">
+      <input id="search" placeholder="Pesquise pelo nome do filme" type="text" >
+      <span id="search-button" class="material-symbols-outlined search-icon">
+        search
+      </span>
+      <span id="filter-icon" class="material-symbols-outlined">
+        filter_list
+      </span>
+    </div>
+    <div id="filters">
+      <span class="filter-for">
+        Filtrar por
+      </span> <br>
+      <span id="atores-filter" class="filter-item" >Atores</span>
+      <br>
+      <span id="categorias-filter" class="filter-item" >Categorias</span> <br>
+      <span id="filmes-filter" class="filter-item" >Filmes</span>
+    </div>
+    <div id="films">
+    </div>
+  </div>
+
 
 </body>
 </html>

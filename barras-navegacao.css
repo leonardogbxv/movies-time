@@ -48,6 +48,7 @@
 }
 .logo {
   padding-left: 3%;
+  width: 250px !important;
 }
 .welcome-user {
   position: absolute;
@@ -56,7 +57,7 @@
   right: 0%;
   font-style: normal;
   font-weight: 400;
-  font-size: 70%;
+  font-size: 100%;
   line-height: 30px;
   color: #FFFFFF;
   justify-content: flex-end;
@@ -69,6 +70,7 @@
   width: 100vw;
   max-width: 450px;
   display: none;
+  position: fixed;
 }
 #menu-logout {
   padding: 0px;
@@ -81,7 +83,7 @@
   right: 0%;
   border-radius: 5px;
   display: none;
-
+  position: fixed;
 }
 @media (min-width: 600px) {
   #menu-lateral {
@@ -96,5 +98,9 @@
 
   .navigation-bar {
     height: 40px;
+  }
+
+  .welcome-user {
+    font-size: 70%;
   }
 }
