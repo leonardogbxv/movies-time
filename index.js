@@ -30,7 +30,7 @@ categorias.addEventListener("click", () => {
   window.location.href = "/movies-time/categorias/index.html"
 })
 atores.addEventListener("click", () => {
-  window.location.href = "/movies-time/atores/atores.html"
+  window.location.href = "/movies-time/atores/index.html"
 })
 
 function changeState(el) {
