@@ -16,22 +16,28 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <script src="login.js" defer></script>
   </head>
+  <header>
+      <div class='title'>
+        <p>Movies Time</p>
+      </div>
+      <div class='actions'>
+        <div>Entrar</div>
+        <div>Cadastrar</div>
+      </div>
+  </header>
   <body>
-    <div class="header">
-      <p class="title-header">Movies Time</p>
-      <p class="header-rigth">Entrar</p>
-      <p class="header-rigth">Cadastrar</p>
-    </div>
-
     <div class="container">
       <h1>Olá, seja bem-vindo!</h1>
       <div class="box-login">
-        <input type="email" name="" id="" placeholder="Digite seu e-mail" />
-        <input type="password" name="" id="" placeholder="Digite sua senha" />
-        <button class="submite">Entrar</button>
+          <input type="email" name="mail" id="mail" placeholder="Digite seu e-mail" />
+          <input type="password" name="pass" id="pass" placeholder="Digite sua senha" />
+          <button class="submite" id='loginBtn' onclick="login(document.getElementById('mail').value, document.getElementById('pass').value)">Entrar</button>
+          <div class='error-msg' id='error'>
+            Usuário ou senha incorretos!
+          </div>
       </div>
     </div>
   </body>
+  <script src="login.js"></script>
 </html>
