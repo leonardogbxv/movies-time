@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorias</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+
+  <script src="script.js"></script>
+  <script src="../index.js">
+    
+  </script>
+</head>
+<body>
+  <section>
+    <header>
+      <div class="header-title">Categorias</div>
+      <a href="http://127.0.0.1:5500/categorias/add">
+        <button class="header-btn">Adicionar</button>
+      </a>
+    </header>
+  </section>
+
+  <section>
+    <div class="search">
+      <input
+        class="search-content"
+        type="search"
+        name="search"
+        placeholder="Pesquise pelo nome da categoria"
+      />
+      
+      <button type="submit">
+        <span class="material-symbols-outlined">search</span>
+      </button>
+    </div>
+  </section>
+
+  <section>
+    <table id="categories-table">
+      <thead>
+        <tr>
+          <th>Categorias</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+</body>
+</html>
