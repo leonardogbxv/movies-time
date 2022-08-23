@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Sulphur Point", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-image: url("img/image\ 2.png");
+  background-repeat: no-repeat;
+  width: 1920px;
+  margin: 0px;
+}
+
+.header {
+  background-image: linear-gradient(rgba(91, 0, 123, 1), rgba(99, 10, 170, 1), rgba(47, 0, 123, 1));
+  height: 90px;
+}
+
+.title-header {
+  color: #fff;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0; 
+  position: absolute;
+  top: 5%;
+  transform: translate(0, -50%);
+  margin-left: 10px;
+}
+
+.header-rigth {
+  color: #fff;
+  font-size: 20px;
+  line-height: 100px;
+  float: right;
+  margin-right: 10px;
+}
+
+.container {
+  width: 540px;
+  height: 340px;
+  position: absolute;
+  margin-top: 10%;
+  margin: 0;
+  background-image: linear-gradient(rgba(91, 0, 123, 1), rgba(99, 10, 170, 1), rgba(47, 0, 123, 1));
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+input, button {
+  width: 85%;
+  height: 40px;
+  border-radius: 2px;
+  margin: 10px 40px;
+  background-color: #E9E9E9;
+  font-size: 15px;
+  color: #A0A0A0;
+  outline: none;
+  padding: 0.2rem;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 10%;
+  color: rgba(99, 10, 170, 1);
+}
+
+@media (max-width: 1366px) {
+  body {
+    background-image: url("img/image\ 2.png");
+    background-repeat: no-repeat;
+    width: 1366px;
+    margin: 0px;
+  }
+}
