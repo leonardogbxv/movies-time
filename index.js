@@ -14,11 +14,23 @@ const insertNewRow = (tableName, data) => {
 
 const barsIcon = document.getElementById('icon-bars')
 const arrowIcon = document.getElementById('icon-arrow')
+const filmes = document.getElementById('filmes')
+const atores = document.getElementById('atores')
+const categorias = document.getElementById('categorias')
 barsIcon.addEventListener("click", () => {
   changeState('menu-lateral')
 })
 arrowIcon.addEventListener("click", () => {
   changeState('menu-logout')
+})
+filmes.addEventListener("click", () => {
+  window.location.href = "/movies-time/filmes/index.html"
+})
+categorias.addEventListener("click", () => {
+  window.location.href = "/movies-time/categorias/index.html"
+})
+atores.addEventListener("click", () => {
+  window.location.href = "/movies-time/atores/atores.html"
 })
 
 function changeState(el) {
